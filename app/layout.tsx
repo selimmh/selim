@@ -1,7 +1,9 @@
 import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
+import { Analytics } from "@vercel/analytics/react";
 import { GeistSans } from "geist/font/sans";
 import type { Metadata } from "next";
+
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -68,6 +70,7 @@ export default function RootLayout({
           </header>
           <main>{children}</main>
         </div>
+        <Analytics />
       </body>
     </html>
   );
