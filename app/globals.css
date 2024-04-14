@@ -65,3 +65,15 @@
   ::selection {
     @apply bg-red-400;
   }
+
+  ::-webkit-scrollbar {
+    @apply bg-background;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-background;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-muted;
+  }
