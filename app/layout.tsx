@@ -46,6 +46,7 @@ export const metadata: Metadata = {
   },
   manifest: `${siteConfig.url}/site.webmanifest`,
 };
+
 export default function RootLayout({
   children,
 }: Readonly<{
