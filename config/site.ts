@@ -5,7 +5,7 @@ export const siteConfig: SiteConfig = {
   description:
     "A Software Engineer working at ASSIST Software. Previously at Raisis.",
   url: "https://selim.cc",
-  ogImage: "https://selim.cc/og.jpeg",
+  ogImage: "https://selim.cc/opengraph-image",
   keywords: [
     "software",
     "engineer",

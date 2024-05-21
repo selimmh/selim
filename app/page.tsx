@@ -7,7 +7,7 @@ export default function Home() {
     <main className="flex flex-col gap-24">
       <section>
         <h2 className="font-medium mb-4">Today</h2>
-        <p className="opacity-50">
+        <p className="text-muted-foreground">
           I am a software engineer [sde 2] at ASSIST Software. I like to build
           software products for clients, and I enjoy the process of turning
           their requirements into functional, user-friendly applications.
@@ -23,7 +23,7 @@ export default function Home() {
       </section>
       <section>
         <h2 className="font-medium mb-4">More</h2>
-        <p className="opacity-50">
+        <p className="text-muted-foreground">
           You can see more of my career on{" "}
           <a
             target="_blank"

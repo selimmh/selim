@@ -76,7 +76,7 @@ export default function Tabs({ tabs, className }: TabsProps): JSX.Element {
           >
             <h3 className="text-xl">
               {item.title}{" "}
-              <span className="opacity-50 text-sm">
+              <span className="text-muted-foreground text-sm">
                 {item.disabled ? "[soon]" : ""}
               </span>
             </h3>

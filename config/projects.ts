@@ -2,21 +2,20 @@ import { Project } from "@/types";
 
 export const projects: Project[] = [
   {
-    title: "Tick",
+    title: "tick",
     description: "Beautifully simple flip clock with Pomodoro timer.",
-    github: "https://tick.selim.cc",
+    github: "https://github.com/selimmh/tick",
     live: "https://tick.selim.cc",
   },
   {
-    title: "Finds",
+    title: "oun",
     description: "Place to discover beautifully designed physical products.",
-    github: "#",
-    live: "#",
-    disabled: true,
+    github: "https://github.com/selimmh/oun",
+    live: "https://oun.selim.cc",
   },
   {
-    title: "Monkey",
-    description: "Minimalist typing test to test your typing speed.",
+    title: "koala",
+    description: "Momentum based habit tracker to build good habits.",
     github: "#",
     live: "#",
     disabled: true,
